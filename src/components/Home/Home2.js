@@ -38,7 +38,7 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for developing new projects
-              with <b className="purple">different technologies to be able to increase my knowledge level in other areas of programming</b> and
+              with <b className="purple">different technologies to be able to increase my knowledge level in other areas of programming</b>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
