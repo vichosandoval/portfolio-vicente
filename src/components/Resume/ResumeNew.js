@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "../../Assets/Curriculum Vicente - English.pdf";
+  "https://github.com/Vicente-sandoval-Carrasco/portfolio-vicente/blob/main/src/Assets/Curriculum%20Vicente%20-%20English.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
