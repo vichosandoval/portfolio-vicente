@@ -2,14 +2,15 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Curriculum Vicente - English.pdf";
+import pdf from "../../Assets/Curriculum-Vicente-English.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
 
 const resumeLink =
-  "https://github.com/Vicente-sandoval-Carrasco/portfolio-vicente/blob/main/src/Assets/Curriculum%20Vicente%20-%20English.pdf";
+"https://raw.githubusercontent.com/Vicente-sandoval-Carrasco/Portfolio/master/src/Assets/Soumyajit_Behera-BIT_MESRA.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
