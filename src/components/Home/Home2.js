@@ -32,23 +32,13 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                and have a little knowledge of each area of ​​programming.
+                Software Development and Game Development.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js, Laravel</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Angular</b>
-              </i>
+              Whenever possible, I also apply my passion for developing new projects
+              with <b className="purple">different technologies to be able to increase my knowledge level in other areas of programming</b> and
             </p>
           </Col>
           <Col md={4} className="myAvtar">

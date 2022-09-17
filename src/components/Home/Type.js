@@ -9,7 +9,7 @@ function Type() {
           "Developer",
           "Fullstack Developer",
           "Wordpress Developer",
-          "Passionate about learning"
+          "Passionate by programming"
         ],
         autoStart: true,
         loop: true,
